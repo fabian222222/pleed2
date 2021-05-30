@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <script src="https://kit.fontawesome.com/7806c1eb76.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/header.css">
+</head>
+<body>
+    {% include 'header.html' %}
+    
+    <section class="control">
+        <div class="control_container">
+
+            <div class="separator">
+            </div>
+
+            <div class="statistique">
+                <div class="statistique_plan">
+                    <div class="statistique_plan_graph">
+                        <h1 class="statistique_plan_graph_title">Statistiques</h1>
+                        <div class="statistique_graph">
+                            <div class="statistique_first_graph"></div>
+                        </div>
+                        <p class="statistique_use">Utilisation de votre temps</p>
+                    </div>
+                    <div class="statistiques_plan_text">
+                        <h2>Le plannificateur</h2>
+                        <p>Votre profil correspond au planificateur, vous planifiez beaucoup de réunion affin de vous assurer que les projets avancent bien. </p>
+                    </div>
+                </div>
+                <div class="statistique_explain">
+                    <p>En moyenne votre profil correspond à 30% des employées en petites et moyennes entreprises. Cette méthode de travail est efficace mais implique d'investir beaucoup de temps pendant les réunions </p>
+                </div>
+            </div>
+
+            <div class="separator">
+            </div>
+
+            <div class="formation">
+                <div class="formation_container">
+                    <h2 class="formation_title">Formations</h2>
+                    <div class="formation_elements_container">
+                        <div class="formation_element">
+                            <div class="formation_element_text">
+                                <p class="formation_element_text_title">Réunion + efficaces</p>
+                                <p class="formation_element_text_description">Ce cours vous est recommandé en fonction de votre profil : "Planificateur" en savoir plus</p>
+                            </div>
+                            <div class="formation_element_image">
+                                <img src="images/image_formation.png" alt="">
+                            </div>
+                        </div>
+                        <div class="formation_element">
+                            <div class="formation_element_text">
+                                <p class="formation_element_text_title">Réunion + efficaces</p>
+                                <p class="formation_element_text_description">70% des échanges par mails nécessite plus de 5 mails à cause d'une méthode trop formelle  en savoir plus</p>
+                            </div>
+                            <div class="formation_element_image">
+                                <img src="images/image_formation.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="separator">
+            </div>
+
+            <div class="question">
+                <div class="question_container">
+                    <h2 class="question_title">Questionnaire</h2>
+                    <div class="question_elements">
+                        <div class="question_element">
+                            <div class="question_element_container">
+                                <h3>Questionnaire principal :</h3>
+                                <p>création de votre profil affin de mieux vous recommander des formations et vous accompagner.</p>
+                            </div>
+                        </div>
+                        <div class="question_element">
+                            <div class="question_element_container">
+                                <h3>Questionnaire secondaire :</h3>
+                                <p>évaluation de votre fréquence d'envoi de mail et de l'efficacité de vos échanges.</p>
+                            </div>
+                        </div>
+                        <div class="question_element">
+                            <div class="question_element_container">
+                                <h3>Questionnaire secondaire :</h3>
+                                <p>évaluation de votre fréquence d'envoi de mail et de l'efficacité de vos échanges.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="separator">
+            </div>
+
+            <div class="form">
+                <div class="form_container">
+                    <h2>Formulaire / Demande d'entretien</h2>
+                    <form action="http://pleed.local/homepage" method="post" class="form_request">
+                        <select name="request" class="request">
+                            <option value="1">Demande d'entretien</option>
+                        </select>
+                        <input type="text" name="subject" class="form_subject" placeholder="Sujet de la demande">
+                        <textarea name="form_text" class="form_text" placeholder="Description de votre demande"></textarea>
+                        <input type="submit" value="Envoyer" class="form_send">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% include 'footer.html' %}
+</body>
+</html>

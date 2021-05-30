@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll page</title>
+    <script src="https://kit.fontawesome.com/7806c1eb76.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/poll.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <script src="/javascript/pollQuestion.js"></script>
+</head>
+<body>
+    {% include 'header.html' %}
+
+    <section class="question_page">
+        <div class="question_page_container">
+            <div class="question_page_container_title">
+                <h1 class="poll_title">Questionnaire sur</h1>
+            </div>
+            <div class="warning">
+                <p class="warning_text">
+                    Faites les questionnaires lorsque vous avez le temps car les réponses ne seront pas sauvegardées tant que vous n'avez pas fini
+                </p>
+            </div>
+            <div class="number_of_question">
+                <p class="question_number"></p>
+            </div>
+            <div class="question_element">
+               
+            </div>
+        </div>
+    </section>
+
+    {% include 'footer.html' %}
+</body>
+</html>

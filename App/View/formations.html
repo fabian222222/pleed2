@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formations recommandées</title>
+    <script src="https://kit.fontawesome.com/7806c1eb76.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/formation.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <script src="/javascript/formation.js"></script>
+</head>
+<body>
+    {% include 'header.html' %}
+
+    <section class="formations">
+        <div class="formations_container">
+            <h1>Formation recommandées</h1>
+            <!-- <div class="formations_cards_container">
+                <div class="formations_container_card">
+                    <div class="formation_container_card_first_contain">
+                        <div class="formation_container_card_image">
+                            <img src="" alt="">
+                        </div>
+                        <div class="formation_container_card_title">
+                            <p class="formation_title">Titre de la formation</p>
+                        </div>
+                        <div class="formation_container_card_description">
+                            <p>Description de la formation</p>
+                        </div>
+                    </div>
+                   <div class="formation_container_card_second_contain">
+                       <p>Type de skills</p>
+                       <p>Durée de la formation</p>
+                   </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="list_of_formation">
+        <div class="list_of_formation_container_filter">
+            <div class="list_of_formation_container_title">
+                <p>Liste de toutes les formations</p>
+            </div>
+            <!-- <div class="list_of_formation_container_elements">
+                <div class="list_of_formation_container_element">
+                    <p>filters - type de skill</p>
+                </div>
+                <div class="list_of_formation_container_element">
+                    <p>filters - temps de formation</p>
+                </div>
+                <div class="list_of_formation_container_element">
+                    <p>filters - divers</p>
+                </div>
+            </div> -->
+        </div>
+
+        <div class="list_of_formation_container_cards">
+          
+        </div>
+    </section>
+
+    {% include 'footer.html' %}
+</body>
+</html>

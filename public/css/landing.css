@@ -1,0 +1,312 @@
+body, html {
+    height: 100%; 
+    width: 100%; 
+    margin: 0;
+    
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.header{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header > a{
+    text-decoration: none;
+    color: white;
+    background-color: #75DDB2;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+h1, .contain-text h2, .contain-text2 h2, .text-contact h2 {
+    font-family: 'Rubik', sans-serif;
+    color: black;
+}
+
+
+
+.pleed {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 65px;
+    padding-top: 10px;
+}
+
+
+.contain-image-stat, .contain-woman-image, .contain-man-image{
+    display: contents;
+}
+
+.woman {
+    margin-left: 10%;
+}
+
+
+
+
+.contain-text, .contain-image-computer {
+    margin-top: 25px;
+    
+}
+.contain-text {
+    width: 80%;
+    margin-left: 15%;
+}
+
+.contain-text p , .contain-text2 p , .text-contact p , .first-list li,  .second-list li {
+    font-family: 'Quicksand', sans-serif;
+    color: #515958;
+}
+
+
+.separator, .separator2 {
+    height: 2px;
+    background: #8fdab4;
+    width: 23%;
+    
+}
+
+.separator2 {
+    margin-left: 77%;
+}
+
+.separate {
+    height: 2px;
+    background: white;
+    width: 23%;
+    
+}
+
+.contain-text h2, .third-part h2 {
+    margin: 0;
+}
+
+.picture-woman2 {
+    
+    margin-left: 35px;
+}
+.contain-text2 {
+    text-align: end;
+    margin-top: 30px;
+    margin-right: 12%;
+}
+
+.container {
+    margin-left: 20%;
+    display: flex;
+    height: 46%;
+    margin-top: 30px;
+    
+}
+
+.container > img {
+    width: 50px;
+    height: 150px;
+}
+
+
+
+
+.text-contact ul {
+    list-style: none;
+    
+}
+
+
+
+
+
+
+.text-contact, .image-both-person {
+    margin-top: 21px;
+}
+
+.image-both-person img{
+    margin-left: 95%;
+    
+}
+
+.footer ul {
+    list-style: none;
+    
+}
+
+
+
+
+
+.footer  {
+    display: flex;
+}
+
+/* desktop */
+@media screen and (min-width: 601px) {
+    .header img {
+        width: 80px;
+    }
+    .both-person {
+        margin-left: 20%;
+    }
+    .contain-image-computer img {
+        
+        width: 35%;
+        margin-left: 15%;
+    }
+    
+    
+    
+    .contain-all-person {
+        width: 100%;
+        
+        display: flex;
+    }
+    .first-part {
+        width: 100%;
+        height: 75%;
+        background-image: url("/images/background.png");
+        background-size: cover;
+    }
+    .footer .first-list{
+        
+        margin-left:35% ;
+    }
+    
+    .footer .second-list{
+        
+        margin-left:10% ;
+    }
+    .third-part {
+        width: 100%;
+        height: 50%;
+        background-image: url("/images/background.png");
+        background-size: cover;
+        display: flex;
+    }
+    .text-contact {
+        width: 35%;
+        margin-left: 15%;
+    }
+    .second-part {
+        width: 100%;
+        
+        display: flex;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 600px) {
+    
+    .header img {
+        width: 45px;
+        display: block;
+    }
+    
+    .both-person, .picture-woman2, .man-glasses {
+        display: none;
+    }
+    
+    .contain-image-computer img {
+        
+        width: 45%;
+        margin-left: 50%;
+        
+    }
+    
+    .second-part {
+        width: 75%;
+        
+    }
+    
+    .picture-man3, .picture-woman3 {
+        display: none;
+    }
+    
+    .contain-all-person {
+        width: 100%;
+        
+    }
+    
+    .first-part {
+        width: 100%;
+        height: 55%;
+        background-image: url("/images/background.png");
+        background-size: cover;
+    }
+    .image-both-person {
+        display: none;
+    }
+    
+    .footer .first-list, .footer .second-list {
+        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .third-part {
+        width: 100%;
+        height: 33%;
+        background-image: url("/images/background.png");
+        background-size: cover;
+        display: flex;
+    }
+    .woman {
+        margin-left: 24%;
+        width: 75px;
+    }
+    
+    .stat {
+        width: 25%;
+    }
+    .man {
+        width: 85px;
+    }
+    .text-contact {
+        width: 59%;
+        margin-left: 15%;
+    }
+}
+
+/* tablet */
+@media screen and (min-width:321px) and (max-width:768px) {
+    .both-person {
+        margin-left: 18px;
+    }
+    
+    .first-part {
+        width: 100%;
+        height: 60%;
+        background-image: url("/images/background.png");
+        background-size: cover;
+    }
+    
+    .second-part {
+        width: 100%;
+        display: block;
+        
+    }
+    
+    .contain-all-person {
+        width: 100%;
+        
+        
+    }
+    .picture-man3, .picture-woman3, .picture-woman2, .man-glasses {
+        display: none;
+    }
+    
+}

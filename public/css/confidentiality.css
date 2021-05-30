@@ -1,0 +1,19 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    line-height: 140%;
+}
+.confidentiality_container{
+    width: 95%;
+    margin: auto;
+}
+.confidentiality{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.mention, .TVA, .accommodation, .services, .fake{
+    margin-bottom: 40px;
+}
+h1, .TVA_number, .accomodation_text, h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+}

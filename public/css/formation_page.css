@@ -1,0 +1,39 @@
+body{
+    font-family: "montserrat";
+}
+:root{
+    --card_grey: #bcbcbc;
+}
+
+.formation_section_container{
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+h1{
+    font-size: 1.8vw;
+    margin-bottom: 50px;
+}
+.formation_section_container_video{
+    width: 100%;
+}
+h2{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10%;
+}
+.formation_section_container_intro, .formation_section_container_prob, .formation_section_container_solution, .formation_section_container_solution, .formation_section_container_solution, .formation_section_container_conclusion{
+    width: 100%;
+    margin-bottom: 30px;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+.video_formation{
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/connect.css">
+</head>
+<body>
+    <div class="page_logo">
+        <img class="logo_login" src="/images/new_logo2.png" alt="logo of the platform pleed">
+    </div>
+
+    <section class="connection_form">
+        <div class="form_container">
+            <form action="#" method="post">
+                <div class="form_name">
+                    <p>CONNEXION</p>
+                </div>
+                <div class="form_mail">
+                    <label for="mail">ADRESSE E-MAIL :</label>
+                    <input type="text" name="mail" id="mail">
+                </div>
+                <div class="form_password">
+                    <label for="password">MOT DE PASSE :</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <p class="error_message">{{error}}</p>
+                <input type="submit" value="CONNEXION" class="submit">
+            </form>
+        </div>
+    </section>
+
+    <section class="background">
+        <img src="images/background.png" alt="background of page">
+    </section>
+</body>
+</html>

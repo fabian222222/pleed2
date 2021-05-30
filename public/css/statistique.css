@@ -1,0 +1,81 @@
+body{
+    font-family: 'montserrat';
+}
+.personnal_statistique_big_container{
+    width: 80%;
+    margin: auto;
+}
+h1, .personal_statistique_global_title{
+    font-size: 2vw;
+    font-weight: 600;
+}
+.personal_statistique_title{
+    margin: 40px 0 40px 0;
+}
+.personal_statistique_element{
+    margin-right: 25px;
+    display: flex;
+}
+.personal_statistique_element > div:first-of-type{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--brand_green);
+    font-size: 2vw;
+    font-weight: 700;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+.personal_statistique_description > h2{
+    font-size: 1.6vw;
+    font-weight: 500;
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+.personal_statistique_element_title{
+    width: 30%;
+    line-height: 130%;
+}
+
+.graphics{
+    margin-top: 80px;
+}
+.graphics_container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.graphics_container_element{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.graphics_container_element > p:last-of-type{
+    margin-top: 15px;
+}
+.graphic{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: var(--brand_green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+.graphics_container_element > h4{
+    width: 80%;
+    text-align: center;
+    line-height: 150%;
+    margin-bottom: 20px;
+    font-size: 1.4vw;
+    font-weight: 600;
+}

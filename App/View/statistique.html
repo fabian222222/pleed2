@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistiques</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/statistique.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    {% include 'header.html' %}
+
+    <section class="personal_statistique">
+        <div class="personnal_statistique_big_container">
+            <div class="personal_statistique_container">
+                <div class="personal_statistique_title">
+                    <h1>
+                        Vos statistiques personnelles
+                    </h1>
+                </div>
+                <div class="personal_statistique_elements">
+                    <div class="personal_statistique_element">
+                        <div>
+                            <p>%</p>
+                        </div>
+                        <div class="personal_statistique_description">
+                            <h2>Commentaire sur la répartition</h2>
+                            <p>
+                                Description du profil en fonction des stats de la personne
+                            </p>
+                        </div>
+                    </div>
+                    <div class="personal_statistique_element_title">
+                        <p>Graphique de votre répartition de temps</p>
+                    </div>
+                </div>
+            </div>
+            <div class="personal_statistique_container">
+                <div class="personal_statistique_title">
+                    <h1>
+                        Vos statistiques globales
+                    </h1>
+                </div>
+                <div class="personal_statistique_elements">
+                    <div class="personal_statistique_element">
+                        <div>
+                            <p>%</p>
+                        </div>
+                        <div class="personal_statistique_description">
+                            <h2>Commentaire sur la répartition</h2>
+                            <p>
+                                Description du profil en fonction des stats de la personne
+                            </p>
+                        </div>
+                    </div>
+                    <div class="personal_statistique_element_title">
+                        <p>Graphique de votre répartition de temps</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="graphics">
+        <div class="graphics_container">
+            <div class="graphics_container_element">
+                <h4>Stats en fonction des réponses de tout le monde</h4>
+                <div class="graphic">
+                    <p>%</p>
+                </div>
+                <p>Reunion</p>
+            </div>
+            <div class="graphics_container_element">
+                <h4>Stats en fonction des réponses de tout le monde</h4>
+                <div class="graphic">
+                    <p>%</p>
+                </div>
+                <p>Echanges / appels</p>
+            </div>
+            <div class="graphics_container_element">
+                <h4>Stats en fonction des réponses de tout le monde</h4>
+                <div class="graphic">
+                    <p>%</p>
+                </div>
+                <p>Reunion</p>
+            </div>
+            <div class="graphics_container_element">
+                <h4>Stats en fonction des réponses de tout le monde</h4>
+                <div class="graphic">
+                    <p>%</p>
+                </div>
+                <p>Echanges / appels</p>
+            </div>
+        </div>
+    </section>
+
+    {% include 'footer.html' %}
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formation page</title>
+    <script src="https://kit.fontawesome.com/7806c1eb76.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/formation_page.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <script src="/javascript/formation_page.js"></script>
+</head>
+<body>
+    {% include 'header.html' %}
+
+    <section class="formation_section">
+        <div class="formation_section_container">
+            <h1 class="page_title">
+              
+            </h1>
+            <div class="formation_section_container_video">
+                <video controls class="video_formation">
+                    <source src="/videos/Cour-Reunion.mp4" type="video/mp4">
+                  </video>
+            </div>
+            <h2>Titre de la vidéo - nom de formateur - objectif de la formation</h2>
+            <h3>Introduction du cours</h3>
+            <div class="formation_section_container_intro">
+                <p class="formation_section_container_intro_text"></p>
+            </div>
+            <h3>Problématique</h3>
+            <div class="formation_section_container_prob">
+                <p class="formation_section_container_prob_text"></p>
+            </div>
+            <h3>Solutions</h3>
+            <div class="formation_section_container_solution">
+                <p class="formation_section_container_solution_text"></p>
+            </div>
+            <h3>Conclusion</h3>
+            <div class="formation_section_container_conclusion">
+                <p class="formation_section_container_conclusion_text"></p>
+            </div>
+        </div>
+    </section>
+
+    {% include 'footer.html' %}
+</body>
+</html>

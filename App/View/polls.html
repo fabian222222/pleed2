@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaires</title>
+    <script src="https://kit.fontawesome.com/7806c1eb76.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/polls.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <script src="/javascript/question.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    {% include 'header.html' %}
+
+    <section class="questions">
+        <div class="questions_container">
+            <div class="questions_container_title">
+                <h1>Questionnaires effectués</h1>
+            </div>
+            <div class="questions_container_elements">
+                <div class="questions_container_element green">
+                    <p>Sujet % de completion</p>
+                </div>
+                <div class="questions_container_element blue">
+                    <p>Sujet % de completion</p>
+                </div>
+                <div class="questions_container_element red">
+                    <p>Sujet % de completion</p>
+                </div>
+                <div class="questions_container_element purple">
+                    <p>Sujet % de completion</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="questions_available">
+        <div class="questions_available_container">
+            <div class="questions_available_container_title">
+                <h2>Questionnaires disponibles</h2>
+            </div>
+            <div class="questions_available_container_element">
+            </div>
+        </div>
+    </section>
+
+    {% include 'footer.html' %}
+</body>
+</html>
